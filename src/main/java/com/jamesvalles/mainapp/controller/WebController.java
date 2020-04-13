@@ -1,10 +1,6 @@
 package com.jamesvalles.mainapp.controller;
 
 
-import com.jamesvalles.mainapp.model.Posts;
-import com.jamesvalles.mainapp.model.PostsList;
-import com.oracle.javafx.jmx.json.JSONDocument;
-import com.oracle.javafx.jmx.json.JSONReader;
 import java.util.logging.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
