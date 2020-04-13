@@ -5,6 +5,7 @@
 
     <meta charset="UTF-8">
     <title>COVID-19 Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
@@ -31,6 +32,9 @@
             padding-left: 40px;
             padding-top: 30px;
         }
+        .fas{
+            font-size: 20px;
+        }
 
 
         body {
@@ -54,7 +58,7 @@
             <div class="card mimosa mb-4 white-text">
                 <div class="card-body">
                     <div class="pull-right">
-                        <center><i class="fas fa-procedures"></i></center>
+                        <center><i class="fas fa-viruses"></i></center>
                     </div>
                     <p align="center">POSITIVE</p>
                     <h4 align="center">${totalInfo[0].positive}</h4>
@@ -82,7 +86,7 @@
             <div class="card mimosa mb-4 white-text">
                 <div class="card-body">
                     <div class="pull-right">
-                        <center><i class="fas fa-file-medical-alt"></i></center>
+                        <center><i class="fas fa-hospital-user"></i></center>
                     </div>
                     <p align="center">RECOVERED</p>
                     <h4 align="center">${totalInfo[0].recovered}</h4>
@@ -101,10 +105,10 @@
     <table class="table table-striped">
         <thead class="thead-dark">
         <tr align="center">
-            <th scope="col">State</th>
-            <th scope="col"><i class="fas fa-procedures"></i> Positive</th>
+            <th scope="col"><i class="fas fa-map-marker-alt"></i> State</th>
+            <th scope="col"><i class="fas fa-viruses"></i> Positive</th>
             <th scope="col"><i class="fas fa-clinic-medical"></i> Death</th>
-            <th scope="col"><i class="fas fa-file-medical-alt"></i> Recovered</th>
+            <th scope="col"><i class="fas fa-hospital-user"></i> Recovered</th>
 
         </tr>
         </thead>
