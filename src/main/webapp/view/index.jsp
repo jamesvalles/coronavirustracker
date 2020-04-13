@@ -125,7 +125,7 @@
     <div class="card">
         <h5 class="card-header">Data Source</h5>
         <div class="card-body">
-            <h5 class="card-title">COVID Track Project</h5>
+            <h5 class="card-title">COVID Tracking Project</h5>
             <p class="card-text">The COVID Tracking Project collects and publishes the most complete
                 testing data available for US states and territories.</p>
             <a href="http://www.covidtracking.com" class="btn btn-primary">Visit CovidTracking.com</a>
